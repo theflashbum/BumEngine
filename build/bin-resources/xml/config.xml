@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<uris handler="parseURIs">
-		<uri name="locations"><![CDATA[xml/locations/${filename}.xml]]></uri>
-		<uri name="fonts"><![CDATA[swfs/fonts/${filename}.swf]]></uri>
-		<uri name="css"><![CDATA[css/${filename}.css]]></uri>
-		<uri name="decalsheets"><![CDATA[xml/${filename}.xml]]></uri>
-		<uri name="selectContainer"><![CDATA[${location}/container/${id}/view/front]]></uri>
-	</uris>
-	<resources handler="loadResources">
-		<file name="" type="" api=""></file>
-	</resources>
-	<settings handler="parseSettings">
-		<property id="version" type="string"><![CDATA[1.0.0]]></property>
-		<property id="debug" type="boolean">true</property>
-		<property id="timer" type="number">8000</property>
-		<property id="title" type="string"><![CDATA[FlashBum in ${location}]]></property>
-		<property id="backgroundColor" type="uint">black</property>
-		<property id="zoomOffset" type="number">0</property>
-		
-	</settings>
+    <uris handler="parseURIs">
+        <uri name="locations"><![CDATA[xml/locations/${filename}.xml]]></uri>
+        <uri name="fonts"><![CDATA[swfs/fonts/${filename}.swf]]></uri>
+        <uri name="css"><![CDATA[css/${filename}.css]]></uri>
+        <uri name="decalsheets"><![CDATA[xml/${filename}.xml]]></uri>
+        <uri name="selectContainer"><![CDATA[${location}/container/${id}/view/front]]></uri>
+    </uris>
+    <resources handler="loadResources">
+        <file name="" type="" api=""></file>
+    </resources>
+    <settings handler="parseSettings">
+        <property id="version" type="string"><![CDATA[1.0.0]]></property>
+        <property id="debug" type="boolean">false</property>
+        <property id="timer" type="number">8000</property>
+        <property id="title" type="string"><![CDATA[FlashBum in ${location}]]></property>
+        <property id="backgroundColor" type="uint">black</property>
+        <property id="zoomOffset" type="number">0</property>
+
+    </settings>
 </config>

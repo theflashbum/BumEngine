@@ -184,7 +184,6 @@ package com.flashbum.components.containers
         protected function init():void
         {
             decalSheetManager = GlobalDecalSheetManager.instance;
-
             styleBehavior.applyDefaultStyle();
 
             if (xmlData)
@@ -202,8 +201,6 @@ package com.flashbum.components.containers
          */
         public function applyProperties(style:IStyle):void
         {
-            trace(id, "Style", style);
-
             styleBehavior.applyStyle(style);
         }
 
